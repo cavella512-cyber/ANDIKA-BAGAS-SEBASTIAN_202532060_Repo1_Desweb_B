@@ -1,0 +1,75 @@
+<div id="file-kontak-html" style="border: 2px dashed #666; padding: 20px;">
+        
+        <header>
+            <h1>Registrasi Relawan &amp; Kontak Tim Ekspedisi</h1>
+            <p>Bergabunglah Bersama Arkeolog Maritim Meneliti Sejarah Bangsa</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda Utama</a></li>
+                    <li><a href="ekspedisi.html">Arsip Temuan &amp; Ekspedisi</a></li>
+                    <li><a href="kontak.html">Registrasi &amp; Kontak Peneliti</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>Formulir Pendaftaran Relawan Ekspedisi Bawah Air</h2>
+                <p>Silakan lengkapi formulir di bawah ini jika Anda ingin mendaftarkan diri sebagai penyelam relawan, juru dokumentasi, atau peneliti magang dalam ekspedisi jalur rempah berikutnya.</p>
+                
+                <img src="images/peta navigasi.png" alt="Penyelam peneliti sedang mengukur artefak kuno di dasar laut" width="800" height="400">
+
+                <section>
+                    <!-- Form dengan minimal 3 input type berbeda, label ber-for & id, dan atribut required -->
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <legend>Data Diri Calon Relawan</legend>
+                            
+                            <p>
+                                <label for="nama_lengkap">Nama Lengkap Sesuai Identitas:</label><br>
+                                <input type="text" id="nama_lengkap" name="nama_lengkap" required placeholder="Contoh: Budi Santoso">
+                            </p>
+
+                            <p>
+                                <label for="email_relawan">Alamat Email Aktif:</label><br>
+                                <input type="email" id="email_relawan" name="email_relawan" required placeholder="nama@domain.com">
+                            </p>
+
+                            <p>
+                                <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+                                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                            </p>
+
+                            <p>
+                                <label>Peran yang Diminati dalam Ekspedisi:</label><br>
+                                <input type="radio" id="peran_penyelam" name="peran" value="penyelam" required>
+                                <label for="peran_penyelam">Penyelam Arkeologi (*Diver*)</label><br>
+                                
+                                <input type="radio" id="peran_dokumentasi" name="peran" value="dokumentasi">
+                                <label for="peran_dokumentasi">Juru Dokumentasi Bawah Air</label><br>
+                                
+                                <input type="radio" id="peran_laboratorium" name="peran" value="laboratorium">
+                                <label for="peran_laboratorium">Analis Laboratorium Artefak</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" id="persetujuan" name="persetujuan" required>
+                                <label for="persetujuan">Saya menyatakan sanggup mengikuti protokol keselamatan kerja lapangan bawah air.</label>
+                            </p>
+
+                            <p>
+                                <button type="submit">Kirim Pendaftaran Ekspedisi</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Arkeologi Maritim Nusantara. Sekretariat Pusat Penelitian Arkeologi Kelautan.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
